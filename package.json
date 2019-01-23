@@ -1,6 +1,7 @@
 {
   "scripts": {
     "test": "tronbox test",
+    "pretest": "yarn migrate",
     "migrate": "tronbox migrate --reset"
   },
   "dependencies": {
