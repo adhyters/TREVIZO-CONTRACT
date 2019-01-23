@@ -7,7 +7,7 @@ services:
 
 before_install:
   - docker run -d -it -p 9090:9090 -e "showQueryString=true" -e "showBody=true" -e "formatJson=true" -e "allowTvmTransferTrc10=1" --name tron trontools/quickstart
-  - sleep 120
+  - sleep 180
   
 script:
   - yarn install
