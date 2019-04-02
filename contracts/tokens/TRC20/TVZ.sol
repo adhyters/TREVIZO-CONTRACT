@@ -18,10 +18,10 @@ import "./../../ownership/Ownable.sol";
  */
 contract TWX is TRC20Detailed, TRC20Capped, Ownable  {
 
-    string constant _name = "TRONWALLET";
-    string constant _symbol = "TWX";
+    string constant _name = "TREVIZO";
+    string constant _symbol = "TVZ";
     uint8 constant _decimals = 6;
-    uint256 constant _totalSupply = 20000000000 * (10 ** uint256(_decimals));
+    uint256 constant _totalSupply = 999999000 * (10 ** uint256(_decimals));
 
     constructor()
         TRC20Detailed(_name, _symbol, _decimals)
