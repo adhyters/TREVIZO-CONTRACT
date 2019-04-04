@@ -6,17 +6,7 @@ import "./TRC20Burnable.sol";
 import "./TRC20Detailed.sol";
 import "./../../ownership/Ownable.sol";
 
-/**
- * @title TRC20Detailed token
- * @dev The decimals are only for visualization purposes.
- * All the operations are done using the smallest and indivisible token unit,
- * just as on TRON all the operations are done in sun.
- *
- * Example inherits from basic TRC20 implementation but can be modified to
- * extend from other ITRC20-based tokens:
- * https://github.com/OpenZeppelin/openzeppelin-solidity/issues/1536
- */
-contract TWX is TRC20Detailed, TRC20Capped, Ownable  {
+contract TVZ is TRC20Detailed, TRC20Capped, Ownable  {
 
     string constant _name = "TREVIZO";
     string constant _symbol = "TVZ";
