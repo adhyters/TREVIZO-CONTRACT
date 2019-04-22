@@ -1,7 +1,7 @@
 module.exports = {
   networks: {
     development: {
-      privateKey: '85ce66cabea4a85e2c3acd66b7f7e927cb5213efe2aa5354c8d71bcc796f9f73',
+      privateKey: 'fdf7b4e04cb7fd41caae418712c08a8b2e5d3d164b39939a0cd569baf26f4613',
       consume_user_resource_percent: 30,
       fee_limit: 1000000000,
       fullHost: 'http://127.0.0.1:9090',
